@@ -11,4 +11,4 @@ phases:
       - mvn package
 artifacts:
     files:
-      - greeting-0.0.1-SNAPSHOT.jar
+      - target/greeting-0.0.1-SNAPSHOT.jar
