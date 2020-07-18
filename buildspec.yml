@@ -9,6 +9,6 @@ phases:
     commands:
       - echo Build completed on `date`
       - mvn package
-  artifacts:
+artifacts:
     files:
       - target/greeting-0.0.1-SNAPSHOT.jar
