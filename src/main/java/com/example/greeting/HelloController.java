@@ -15,4 +15,9 @@ public class HelloController {
     public String howdy() {
         return "Howdy!";
     }
+
+    @GetMapping("/koni")
+    public String koni() {
+        return "Konichiwa!";
+    }
 }
