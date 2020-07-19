@@ -11,6 +11,6 @@ public class CalculatorServiceTests {
         CalculatorService calculatorService = new CalculatorService();
 
         int min = calculatorService.getMinimum(0, -20, 30);
-        Assert.isTrue(min == -20);
+        Assert.isTrue(min == -200);
     }
 }
