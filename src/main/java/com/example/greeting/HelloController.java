@@ -20,4 +20,9 @@ public class HelloController {
     public String koni() {
         return "Konichiwa!";
     }
+
+    @GetMapping("/ciao")
+    public String ciao() {
+        return "Ciao!";
+    }
 }
