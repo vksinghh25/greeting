@@ -10,4 +10,9 @@ public class ByeController {
     public String bye() {
         return "Bye!";
     }
+
+    @GetMapping("/adios")
+    public String adios() {
+        return "Adios!";
+    }
 }
